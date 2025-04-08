@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    border: 2px solid;
+    display: flex;
+    justify-content:;
+}
+
+.left {
+    border: 2px solid red;
+    width: 35vw;
+    overflow: hidden;
+}
+
+.left img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.right{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    display: flex;
+}
+
+.top {
+    flex: 4;
+}
+
+
+.blurb {
+    margin-top: 20vh;
+    width: 50ch;
+}
+
+.bottom {
+    flex: 6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname-lastname {
+    display: flex;
+}
+
+.email-phonenumber {
+    display: flex;
+
+}
+
+.password_confirmpw {
+    display: flex;
+}
+
+
