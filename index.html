@@ -22,37 +22,46 @@
                     Money, it's gotta be the shoes! Money, it's gotta be the shoes!
                     Money, it's gotta be the shoes!
                 </p>
-                <p>Do it! You got this!</p>
+                <p class="motivate">Do it! You got this!</p>
             </div>
             <div class="bottom">
                 <h1 class="form-heading">Fill me in!</h1>
                 <form action="www.theodinproject.com" method="get">
                     <div class="firstname-lastname">
-                        <label for="firstname" data-help="¿Are you 11 from Stranger Things?">First Name</label>
-                        <input id="firstname" placeholder="First Name *" name="firstname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
-
-                        <label for="lastname" data-help="A girl has no name- Arya Stark">Last Name</label>
-                        <input id="lastname" placeholder="Last Name *" name="lastname" type="text" value="" size="30" maxlength="245" required>
+                        <div class="firstname"> 
+                            <label for="firstname" data-help="¿Are you 11 from Stranger Things?">First Name</label>
+                            <input id="firstname" placeholder="First Name *" name="firstname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                        </div>
+                        <div class="lastname"> 
+                            <label for="lastname" data-help="¿Are you 11 from Stranger Things?">First Name</label>
+                            <input id="lastname" placeholder="Last Name *" name="lastname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                        </div>
                     </div>
                     <div class="email-phonenumber">
-                        <label for="email" data-help="Format email@email.com">Email</label>
-                        <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
-                        
-                        <label for="phone_number" data-help="">Phone Number</label>
-                        <input id="phone_number" placeholder="Enter Phone Number *" name="phone_number" type="tel" value="" size="30" maxlength="100" aria-describedby="phone_number" required>
+                        <div class="email">
+                            <label for="email" data-help="Format email@email.com">Email</label>
+                            <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone_number" data-help="">Phone Number</label>
+                            <input id="phone_number" placeholder="Enter Phone Number *" name="phone_number" type="tel" value="" size="30" maxlength="100" aria-describedby="phone_number" required>
+                        </div>
                     </div>
                     <div class="password_confirmpw">
-                        <label for="password" data-help="">Password</label>
-                        <input id="password" placeholder="Password" name="password" type="password" value="" size="30" maxlength="100" aria-describedby="password" required>
-                        
-                        <label for="confirm_password" data-help="">Confirm Password</label>
-                        <input id="confirm_password" placeholder="Confirm Password" name="confirm_password" type="password" value="" size="30" maxlength="100" aria-describedby="confirm_password" required>
+                        <div class="password">
+                            <label for="password" data-help="">Password</label>
+                            <input id="password" placeholder="Password" name="password" type="password" value="" size="30" maxlength="100" aria-describedby="password" required>
+                        </div>
+                        <div class="confirm-password">
+                            <label for="confirm_password" data-help="">Confirm Password</label>
+                            <input id="confirm_password" placeholder="Confirm Password" name="confirm_password" type="password" value="" size="30" maxlength="100" aria-describedby="confirm_password" required>
+                        </div>
                     </div>
                     <div class="button">
                         <button class="create-account">Create Account</button>
                     </div>
                     <div class="footer">
-                        <p>Already have an account</p>
+                        <p>Already have an account?</p>
                         <a href="www.theodinproject.com">Log In</a>
                     </div>
                 </form>
