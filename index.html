@@ -10,17 +10,20 @@
 <body>
     <div class="container">
         <div class="left">
-            <img src="park-stairs-lexi-laginess-.jpg" alt="">
-            <div class="odin"></div>
-            <div class="photo-cred"></div>
+            <div class="odin-banner">
+                <img src="odin-lined.svg" alt="odin logo" height="100px">
+                <p class="odin-text">ODIN</p>
+            </div>
+            <div class="photo-cred">
+                <p class="cred">Photo by <a href="https://unsplash.com/@lifeof_peter_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> Peter Thomas</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-green-plant-with-lots-of-leaves-0B1Sf1eImY8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            </div>
         </div>
         <div class="right">
             <div class="top">
                 <p class="blurb">
                     Money, it's gotta be the shoes! Money, it's gotta be the shoes! 
                     Money, it's gotta be the shoes! Money, it's gotta be the shoes! 
-                    Money, it's gotta be the shoes! Money, it's gotta be the shoes!
-                    Money, it's gotta be the shoes!
+                    Money, it's gotta be the shoes! 
                 </p>
                 <p class="motivate">Do it! You got this!</p>
             </div>
@@ -30,21 +33,21 @@
                     <div class="firstname-lastname">
                         <div class="firstname"> 
                             <label for="firstname" data-help="¿Are you 11 from Stranger Things?">First Name</label>
-                            <input id="firstname" placeholder="First Name *" name="firstname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                            <input id="firstname" placeholder="First Name *" name="firstname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245">
                         </div>
                         <div class="lastname"> 
                             <label for="lastname" data-help="¿Are you 11 from Stranger Things?">First Name</label>
-                            <input id="lastname" placeholder="Last Name *" name="lastname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                            <input id="lastname" placeholder="Last Name *" name="lastname" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" >
                         </div>
                     </div>
                     <div class="email-phonenumber">
                         <div class="email">
                             <label for="email" data-help="Format email@email.com">Email</label>
-                            <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
+                            <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes">
                         </div>
                         <div class="phone-number">
                             <label for="phone_number" data-help="">Phone Number</label>
-                            <input id="phone_number" placeholder="Enter Phone Number *" name="phone_number" type="tel" value="" size="30" maxlength="100" aria-describedby="phone_number" required>
+                            <input id="phone_number" placeholder="Phone Number *" name="phone_number" type="tel" value="" pattern="^(1-)?\d{3}-\d{3}-\d{4}$" size="30" maxlength="100" aria-describedby="phone_number">
                         </div>
                     </div>
                     <div class="password_confirmpw">
@@ -62,7 +65,7 @@
                     </div>
                     <div class="footer">
                         <p>Already have an account?</p>
-                        <a href="www.theodinproject.com">Log In</a>
+                        <a href="www.theodinproject.com">Log in</a>
                     </div>
                 </form>
             </div>
